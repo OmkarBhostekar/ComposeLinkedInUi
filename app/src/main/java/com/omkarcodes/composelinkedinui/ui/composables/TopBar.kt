@@ -71,7 +71,7 @@ fun TopBar(
             Spacer(modifier = Modifier.width(4.dp))
         }
         Spacer(modifier = Modifier.width(15.dp))
-        Icon(
+        Image(
             painter = painterResource(id = R.drawable.inbox),
             contentDescription = "Inbox",
             modifier = Modifier.size(20.dp)
