@@ -1,4 +1,4 @@
-package com.omkarcodes.composelinkedinui
+package com.omkarcodes.composelinkedinui.models
 
 import androidx.compose.ui.graphics.painter.Painter
 

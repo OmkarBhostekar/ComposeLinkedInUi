@@ -22,17 +22,16 @@ import com.omkarcodes.composelinkedinui.R
 
 @Composable
 fun TopBar(
-    image: Painter
 ) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 10.dp)
+            .padding(horizontal = 10.dp, vertical = 5.dp)
             .height(40.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Image(
-            painter = image,
+            painter = painterResource(id = R.drawable.me),
             contentDescription = "Profile Picture",
             modifier = Modifier
                 .size(30.dp)

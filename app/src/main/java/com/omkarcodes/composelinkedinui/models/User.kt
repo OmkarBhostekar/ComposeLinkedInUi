@@ -1,4 +1,4 @@
-package com.omkarcodes.composelinkedinui
+package com.omkarcodes.composelinkedinui.models
 
 data class User(
     val username: String,
